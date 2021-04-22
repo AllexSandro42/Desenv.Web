@@ -1,0 +1,89 @@
+from flask import current_app as app, render_template
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
+@app.route('/cadastro')
+def cadastro():
+    return render_template('cadastro.html')
+
+@app.route('/feed')
+def feed():
+    return render_template('feed.html')
+
+@app.route('/perfil')
+def perfil():
+    return render_template('perfil.html')
+
+@app.route('/item')
+def item():
+    return render_template('item.html')
+
+@app.route('/cidades')
+def cidades():
+    return render_template('cidades.html')
+
+@app.route('/meninalivros')
+def meninalivros():
+    return render_template('meninaLivros.html')
+
+@app.route('/miseraveis')
+def miseraveis():
+    return render_template('miseraveis.html')
+
+@app.route('/teoriadetudo')
+def teoriadetudo():
+    return render_template('teoriadetudo.html')
+
+@app.route('/extraordinario')
+def extraordinario():
+    return render_template('extraodinario.html')
+
+@app.route('/homemdegiz')
+def homemdegiz():
+    return render_template('homemdegiz.html')
+
+@app.route('/joaozinho')
+def joaozinho():
+    return render_template('joaozinho.html')
+
+@app.route('/felipeneto')
+def felipeneto():
+    return render_template('felipeneto.html')
+
+@app.route('/caminhoestrelas')
+def caminhoestrelas():
+    return render_template('caminhoestrelas.html')
+
+@app.route('/garotadolago')
+def garotadolago():
+    return render_template('garotadolago.html')
+
+@app.route('/retratodedorian')
+def retratodedorian():
+    return render_template('retratodedorian.html')
+
+@app.route('/vinultimato')
+def vinultimato():
+    return render_template('vinultimato.html')
+
+@app.route('/batmantrevas')
+def batmantrevas():
+    return render_template('batmantrevas.html')
+
+@app.route('/bohemian')
+def bohemian():
+    return render_template('bohemian.html')
+
+@app.route('/1917')
+def umnoveumsete():
+    return render_template('1917.html')
+
+@app.route('/tropaelite')
+def tropaelite():
+    return render_template('tropaelite.html')
